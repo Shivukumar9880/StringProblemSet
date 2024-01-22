@@ -1,0 +1,25 @@
+package Charactor_Programs;
+
+public class _5_Count_How_Many_UpperCase_char_and_How_many_lower_char_In_String 
+{
+	public static void main(String[] args) {
+		
+		String s="J Spiders Basavanagudi";
+		int uc=0;
+		int lc=0;
+		for(int i=0;i<s.length();i++)
+		{ 
+			char ch=s.charAt(i);
+			
+			if(ch>='A' && ch<='Z')
+				uc++;
+			if(ch>='a'&& ch<='z')
+				lc++;
+		
+		}
+		System.out.println("UpperCharector : "+uc);
+		System.out.println("LowerCharector : "+lc);
+		
+	}
+
+}

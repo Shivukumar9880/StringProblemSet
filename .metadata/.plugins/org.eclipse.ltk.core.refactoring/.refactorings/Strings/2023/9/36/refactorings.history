@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;Strings/src/Word_progrms&apos;&#x0D;&#x0A;- Original project: &apos;Strings&apos;&#x0D;&#x0A;- Destination element: &apos;Strings/src/Word_progrms&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     _8_Print_Special_words_in_String.java&#x0D;&#x0A;     _10_find_Specific_word_prasent_In_String.java&#x0D;&#x0A;     _9_FindLogest_word_In_sentence.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;Word_progrms" element1="/src&lt;{_8_Print_Special_words_in_String.java" element2="/src&lt;{_10_find_Specific_word_prasent_In_String.java" element3="/src&lt;{_9_FindLogest_word_In_sentence.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1694076540129" units="3" version="1.0"/>
+</session>

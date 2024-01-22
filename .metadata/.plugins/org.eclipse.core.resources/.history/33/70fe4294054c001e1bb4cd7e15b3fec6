@@ -1,0 +1,32 @@
+package Charactor_Programs;
+
+public class Replace 
+{
+   public static void main(String[] args) {
+	
+	   String word="";
+	   String res="";
+	   String s=" school i am going to school ";
+	   
+	   for(int i=0;i<s.length();i++)
+	   {
+		   char ch=s.charAt(i);
+           
+		   if(ch!=' ')
+			   word+=ch;
+		   else
+		   {
+			  String rep= "school";
+			   if(word.equals(rep))
+				   word="maribasava";
+			   
+			   res+=word+" ";
+			   
+			   word="";
+
+		   }
+			   
+	   }
+	   System.out.println(res);
+}
+}

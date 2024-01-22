@@ -1,0 +1,26 @@
+package Charactor_Programs;
+
+public class _6_how_many_Digits__in_String_Special_char_in_string
+{
+	public static void main(String[] args) 
+	{
+         String s="ShivU KumaR@1234";
+         int countdigit=0;
+         int specialchar=0;
+         for(int i=0;i<s.length();i++)
+         {
+        	 char ch=s.charAt(i);
+        	 
+        	 if(ch>='0' && ch<='9')
+        		 countdigit++;
+        	 if( !(ch>='A' && ch<='Z') || !(ch>='a' && ch<='z'))
+        		 specialchar++;
+	 
+         }
+         
+         System.out.println("Digits : "+countdigit);
+         System.out.println("Special char : "+specialchar);
+         
+   
+	}
+}

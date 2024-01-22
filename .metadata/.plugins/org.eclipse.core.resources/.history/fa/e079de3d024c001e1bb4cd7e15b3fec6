@@ -1,0 +1,42 @@
+package Charactor_Programs;
+
+public class _6_how_many_Digits__in_String_Special_char_in_string
+{
+	public static void main(String[] args) 
+	{
+         String s="ShivU KumaR";
+         
+         String word="";
+         
+        
+         String reverse="";
+         for(int i=0;i<s.length();i++)
+         {
+
+        	 char ch=s.charAt(i);
+        	 
+        	 if(ch!=' ')
+        	 {
+        		 word=word+ch;
+        	 }
+        	 else
+        	 {    
+        		 char a=word.charAt(0);
+        		 char b=word.charAt( word.length()-1);
+                  
+        		 char w[]=word.toCharArray();
+        		 w[0]=b;
+        		 w[word.length()-1]=a;
+        		 
+        		 word=new String(w);
+        		
+        	     reverse=reverse+word;
+        		 
+        		
+        	 }
+        	 word="";
+         }
+         
+         System.out.println(reverse);
+	}
+}

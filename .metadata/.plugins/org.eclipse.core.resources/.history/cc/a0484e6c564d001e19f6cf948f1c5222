@@ -1,0 +1,13 @@
+
+
+public class _8_Print_Special_words_in_String {
+
+	/**
+	 * Special words means a word first charectar and last charector should be same ex-> ANNA  MOM DAD
+	 */
+	
+	public static void main(String[] args) {
+		
+		
+	}
+}

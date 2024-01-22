@@ -1,0 +1,8 @@
+package Word_progrms;
+
+public class _1_Print_WOrds_In_String_In_saparate_line 
+{
+public static void main(String[] args) {
+	System.out.println("hi");
+}
+}

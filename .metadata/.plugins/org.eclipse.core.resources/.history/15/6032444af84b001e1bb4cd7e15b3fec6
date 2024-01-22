@@ -1,0 +1,18 @@
+package Charactor_Programs;
+
+public class Print_Lower_case_Character_in_String 
+{
+
+	public static void main(String[] args) {
+		String s="shivu Kumar";
+		
+		for(int i=0;i<s.length();i++)
+		{
+			char ch=s.charAt(i);
+			
+			if(ch>='a' && ch<='z')
+				System.out.println(ch);
+		}
+		
+	}
+}

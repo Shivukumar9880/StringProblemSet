@@ -1,0 +1,33 @@
+package Charactor_Programs;
+
+import java.util.Scanner;
+
+public class _9_Create_String_Reverse_The_Case_Of_The_String_up_to_lc {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter String");
+		
+		String s=sc.nextLine();
+		
+		char cr[]=s.toCharArray();// converting STring to char array
+		
+		for(int i=0;i<cr.length;i++)
+		{
+//			char ch=s.charAt(i);
+			if(cr[i]>='A'&& cr[i]<='Z')
+			{
+				cr[i]=(char)(cr[i]+32);
+			}
+			else if(cr[i]>='a'&& cr[i]<='z')
+			{
+				cr[i]=(char)(cr[i]-32);
+			}
+			
+		}
+	    s=new String(cr);
+	    System.out.println(s);
+	}
+}
